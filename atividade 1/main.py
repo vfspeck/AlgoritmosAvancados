@@ -10,7 +10,7 @@ df3 = pd.concat(frames)
 
 lista = df3.sort_values("nome").loc[:,"nome"].values.tolist()
 
-nome=input("insira um nome: ")
+nome=input("insira um nome (full caps): ")
 
 def busca_binaria(lista,nome):
     min=0
@@ -26,8 +26,6 @@ def busca_binaria(lista,nome):
             max=mid-1
         else:
             return mid
-    return "não esta na lista"
+    return "não tá na lista"
 
 print(busca_binaria(lista,nome))
-
-

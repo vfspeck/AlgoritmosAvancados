@@ -17,18 +17,20 @@ dicio_inv_mas = dict(map(reversed, dicionario_mas.items()))
 
 nome=input("insira um nome (full caps): ")
 
-def func1(nome):
-
-def func2(nome):
-
+def func(dicio,nome):
+    dicio.get(nome)
 
 if __name__ == '__main__':
-    Thread(target = func1).start()
-    Thread(target = func2).start()
+    Thread(target = func).start()
+    Thread(target = func).start()
 
-def verificaHomemMulher(nome):
-    if func1(nome)==func2(nome):
+def verificaHomemMulher(dicio1, dicio2, nome):
+    if __name__ == '__main__':
+        Thread(target = func(dicio1, nome)).start()
+        Thread(target = func(dicio2, nome)).start()
+    if func(dicio1, nome)==func(dicio2, nome):
         return "é nome de homi e muie"
-    else
-        return
-    
+    else:
+        return "nao é"
+
+print(func(dicio_inv_fem,nome))

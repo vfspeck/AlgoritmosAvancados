@@ -33,4 +33,4 @@ arr = [-2, -5, 6, -2, -3, 1, 5, -6]
 n = len(arr)
  
 max_sum = maxSubArraySum(arr, 0, n-1)
-print("Maximum contiguous sum is ", max_sum)
+print("Maximum contiguous sum is", max_sum)

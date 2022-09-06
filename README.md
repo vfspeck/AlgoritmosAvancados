@@ -1,2 +1,2 @@
 ﻿# Matéria de Algoritmos Avançados
-Alunos: Vinícius Ferraro Speck e Rodrigo Correia
+Alunos: Vinícius Ferraro Speck, Rodrigo Correia e Pedro Eduardo
